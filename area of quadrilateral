@@ -1,0 +1,5 @@
+import math
+
+area1 = 0.5 * self.sides[0] * self.sides[1] * math.sin(math.radians(self.angles[1]))
+area2 = 0.5 * self.sides[2] * self.sides[3] * math.sin(math.radians(self.angles[3]))
+area = area1 + area2
